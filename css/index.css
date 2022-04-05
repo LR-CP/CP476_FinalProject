@@ -1,0 +1,66 @@
+.row {
+    /* Stocks tiles banner */
+    float: top;
+    width: auto;
+    /* Adds a slight more width to the page idk why */
+    height: 30%;
+    background-color: whitesmoke;
+}
+
+
+/* I know this is inefficient af but its hard-coded so whatever */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 8%;
+    height: 20%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card5:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+/* Add some padding inside the card container */
+
+.container {
+    padding: 2px 16px;
+    text-align: left;
+}
+
+.tpage {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.titlelogo {
+    width: 500%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 86px;
+    font-family: "Sans-Serif-bold";
+    padding: 80px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
